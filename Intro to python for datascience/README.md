@@ -27,3 +27,20 @@ c) Your boss asks you to clean and analyze the results of the latest satisfactio
 d) All of the above.
 
 Solution : d(All of the above.)
+
+Excercise 3:
+
+Any comments?
+Something that Filip didn't mention in his videos is that you can add comments to your Python scripts. Comments are important to make sure that you and others can understand what your code is about.
+
+To add comments to your Python script, you can use the # tag. These comments are not run as Python code, so they will not influence your result. As an example, take the comment on the right, # Division; it is completely ignored during execution.
+
+Solution : 
+``
+# Division
+print(5 / 8)
+
+# Addition
+print(7 + 10)
+
+``
