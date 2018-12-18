@@ -264,4 +264,140 @@ d) C
 
 Solution : a(A, B and C)
 
+Excercise 14:
+
+Finish the list of lists so that it also contains the bedroom and bathroom data. Make sure you enter these in order!
+Print out house; does this way of structuring your data make more sense?
+Print out the type of house. Are you still dealing with a list?
+
+Solution : 
+
+````
+# area variables (in square meters)
+hall = 11.25
+kit = 18.0
+liv = 20.0
+bed = 10.75
+bath = 9.50
+
+# house information as list of lists
+house = [["hallway", hall],
+         ["kitchen", kit],
+         ["living room", liv],
+         ["bedroom", bed],
+         ["bathroom", bath]]
+
+# Print out house
+print(house)
+
+# Print out the type of house
+print(type(house))
+````
+
+Excercise 15:
+
+Print out the second element from the areas list (it has the value 11.25).
+Subset and print out the last element of areas, being 9.50. Using a negative index makes sense here!
+Select the number representing the area of the living room (20.0) and print it out.
+
+Solution:
+
+````
+# Create the areas list
+areas = ["hallway", 11.25, "kitchen", 18.0, "living room", 20.0, "bedroom", 10.75, "bathroom", 9.50]
+
+# Print out second element from areas
+print(areas[1])
+
+# Print out last element from areas
+print(areas[-1])
+
+# Print out the area of the living room
+print(areas[-5])
+````
+
+Excercise 16 :
+
+Using a combination of list subsetting and variable assignment, create a new variable, eat_sleep_area, that contains the sum of the area of the kitchen and the area of the bedroom.
+Print the new variable eat_sleep_area.
+
+Solution:
+
+````
+# Create the areas list
+areas = ["hallway", 11.25, "kitchen", 18.0, "living room", 20.0, "bedroom", 10.75, "bathroom", 9.50]
+
+# Sum of kitchen and bedroom area: eat_sleep_area
+eat_sleep_area = areas[3] + areas[-3]
+
+# Print the variable eat_sleep_area
+print(eat_sleep_area)
+````
+
+Excercise 17 :
+
+Use slicing to create a list, downstairs, that contains the first 6 elements of areas.
+Do a similar thing to create a new variable, upstairs, that contains the last 4 elements of areas.
+Print both downstairs and upstairs using print().
+
+Solution:
+
+````
+# Create the areas list
+areas = ["hallway", 11.25, "kitchen", 18.0, "living room", 20.0, "bedroom", 10.75, "bathroom", 9.50]
+
+# Use slicing to create downstairs
+downstairs = areas[0:6]
+
+# Use slicing to create upstairs
+upstairs = areas[6:10]
+
+# Print out downstairs and upstairs
+print(downstairs)
+print(upstairs)
+````
+
+Excercise 18:
+
+Create downstairs again, as the first 6 elements of areas. This time, simplify the slicing by omitting the begin index.
+Create upstairs again, as the last 4 elements of areas. This time, simplify the slicing by omitting the end index.
+
+Solution:
+
+````
+# Create the areas list
+areas = ["hallway", 11.25, "kitchen", 18.0, "living room", 20.0, "bedroom", 10.75, "bathroom", 9.50]
+
+# Alternative slicing to create downstairs
+downstairs = areas[:6]
+
+# Alternative slicing to create upstairs
+upstairs = areas[6:]
+````
+
+Excercise 19:
+
+Subsetting lists of lists
+You saw before that a Python list can contain practically anything; even other lists! To subset lists of lists, you can use the same technique as before: square brackets. Try out the commands in the following code sample in the IPython Shell:
+
+x = [["a", "b", "c"],
+     ["d", "e", "f"],
+     ["g", "h", "i"]]
+x[2][0]
+x[2][:2]
+x[2] results in a list, that you can subset again by adding additional square brackets.
+
+What will house[-1][1] return? house, the list of lists that you created before, is already defined for you in the workspace. You can experiment with it in the IPython Shell.
+
+Options:
+
+
+a) A float: the kitchen area
+b) A string: "kitchen"
+c) A float: the bathroom area
+d) A string: "bathroom"
+
+Solution : c(A float: the bathroom area)
+
+
 
