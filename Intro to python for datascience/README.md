@@ -1,6 +1,6 @@
 # Introduction To python For Datascience
 
-#Excercise 1:
+# Excercise 1:
 
 1) Experiment in the IPython Shell; type 5 / 8, for example.
 2) Add another line of code to the Python script: print(7 + 10).
@@ -16,7 +16,7 @@ print(7+10)
 
 ````
 
-#Excercise 2:
+# Excercise 2:
 
 When to use Python?
 Python is a pretty versatile language. For which applications can you use Python?
@@ -28,7 +28,7 @@ d) All of the above.
 
 Solution : d(All of the above.)
 
-#Excercise 3:
+# Excercise 3:
 
 Any comments?
 Something that Filip didn't mention in his videos is that you can add comments to your Python scripts. Comments are important to make sure that you and others can understand what your code is about.
@@ -45,7 +45,7 @@ print(7 + 10)
 
 ````
 
-#Excercise 4:
+# Excercise 4:
 
 Python as a calculator
 Python is perfectly suited to do basic calculations. Apart from addition, subtraction, multiplication and division, there is also support for more advanced operations such as:
@@ -72,7 +72,7 @@ print(4 ** 2)
 print(100*1.1**7)
 
 ````
-#Excercise 5:
+# Excercise 5:
 
 Create a variable savings with the value 100.
 Check out this variable by typing print(savings) in the script.
@@ -86,7 +86,7 @@ savings = 100
 print(savings)
 ````
 
-#Excercise 6:
+# Excercise 6:
 
 Create a variable growth_multiplier, equal to 1.1.
 Create a variable, result, equal to the amount of money you saved after 7 years.
@@ -107,7 +107,7 @@ result = (100 * 1.1 ** 7)
 print(result)
 ````
 
-#Excercise 7:
+# Excercise 7:
 
 Create a new string, desc, with the value "compound interest".
 Create a new boolean, profitable, with the value True.
@@ -121,7 +121,7 @@ desc = "compound interest"
 profitable = True
 ````
 
-#Excercise 8:
+# Excercise 8:
 
 To find out the type of a value or a variable that refers to that value, you can use the type() function. Suppose you've defined a variable a, but you forgot the type of this variable. To determine the type of a, simply execute:
 
@@ -137,7 +137,7 @@ d) a is of type int, b is of type bool, c is of type str
 
 Solution :  c(a is of type float, b is of type str, c is of type bool)
 
-#Excercise 9:
+# Excercise 9:
 
 Calculate the product of savings and growth_multiplier. Store the result in year1.
 What do you think the resulting type will be? Find out by printing out the type of year1.
@@ -164,7 +164,7 @@ doubledesc = desc + desc
 print(doubledesc)
 ````
 
-#Excercise 10:
+# Excercise 10:
 
 Hit Run Code to run the code on the right. Try to understand the error message.
 Fix the code on the right such that the printout runs without errors; use the function str() to convert the variables to strings.
@@ -188,7 +188,7 @@ pi_float = float(pi_string)
 
 ````
 
-#Excercise 11:
+# Excercise 11:
 
 Can Python handle everything?
 Now that you know something more about combining different sources of information, have a look at the four Python expressions below. Which one of these will throw an error? You can always copy and paste this code in the IPython Shell to find out!
@@ -202,7 +202,7 @@ d) True + False
 
 Solution : c("The correct answer to this multiple choice exercise is answer number " + 2)
 
-#Excercise 12:
+# Excercise 12:
 
 Create a list, areas, that contains the area of the hallway (hall), kitchen (kit), living room (liv), bedroom (bed) and bathroom (bath), in this order. Use the predefined variables.
 Print areas with the print() function.
@@ -223,7 +223,7 @@ areas = [hall, kit, liv, bed, bath]
 # Print areas
 print(areas)
 ````
-#Excercise 13:
+# Excercise 13:
 
 Finish the line of code that creates the areas list. Build the list so that the list first contains the name of each room as a string and then its area. In other words, add the strings "hallway", "kitchen" and "bedroom" at the appropriate locations.
 Print areas again; is the printout more informative this time?
@@ -244,7 +244,7 @@ areas = ["hallway", hall, "kitchen", kit, "living room", liv, "bedroom", bed, "b
 # Print areas
 print(areas)
 ````
-#Excercise 14:
+# Excercise 14:
 
 Select the valid list
 A list can contain any Python type. But a list itself is also a Python type. That means that a list can also contain a list! Python is getting funkier by the minute, but fear not, just remember the list syntax:
@@ -264,7 +264,7 @@ d) C
 
 Solution : a(A, B and C)
 
-#Excercise 15:
+# Excercise 15:
 
 Finish the list of lists so that it also contains the bedroom and bathroom data. Make sure you enter these in order!
 Print out house; does this way of structuring your data make more sense?
@@ -294,7 +294,7 @@ print(house)
 print(type(house))
 ````
 
-#Excercise 16:
+# Excercise 16:
 
 Print out the second element from the areas list (it has the value 11.25).
 Subset and print out the last element of areas, being 9.50. Using a negative index makes sense here!
@@ -316,7 +316,7 @@ print(areas[-1])
 print(areas[-5])
 ````
 
-#Excercise 17:
+# Excercise 17:
 
 Using a combination of list subsetting and variable assignment, create a new variable, eat_sleep_area, that contains the sum of the area of the kitchen and the area of the bedroom.
 Print the new variable eat_sleep_area.
@@ -334,7 +334,7 @@ eat_sleep_area = areas[3] + areas[-3]
 print(eat_sleep_area)
 ````
 
-#Excercise 18:
+# Excercise 18:
 
 Use slicing to create a list, downstairs, that contains the first 6 elements of areas.
 Do a similar thing to create a new variable, upstairs, that contains the last 4 elements of areas.
@@ -357,7 +357,7 @@ print(downstairs)
 print(upstairs)
 ````
 
-#Excercise 19:
+# Excercise 19:
 
 Create downstairs again, as the first 6 elements of areas. This time, simplify the slicing by omitting the begin index.
 Create upstairs again, as the last 4 elements of areas. This time, simplify the slicing by omitting the end index.
@@ -375,7 +375,7 @@ downstairs = areas[:6]
 upstairs = areas[6:]
 ````
 
-#Excercise 20:
+# Excercise 20:
 
 Subsetting lists of lists
 You saw before that a Python list can contain practically anything; even other lists! To subset lists of lists, you can use the same technique as before: square brackets. Try out the commands in the following code sample in the IPython Shell:
@@ -400,7 +400,7 @@ d) A string: "bathroom"
 Solution : c(A float: the bathroom area)
 
 
-#Excercise 21:
+# Excercise 21:
 
 Update the area of the bathroom area to be 10.50 square meters instead of 9.50.
 Make the areas list more trendy! Change "living room" to "chill zone".
@@ -419,7 +419,7 @@ areas[4] = 'chill zone'
 
 ````
 
-#Excercise 22:
+# Excercise 22:
 
 Use the + operator to paste the list ["poolhouse", 24.5] to the end of the areas list. Store the resulting list as areas_1.
 Further extend areas_1 by adding data on your garage. Add the string "garage" and float 15.45. Name the resulting list areas_2.
@@ -437,7 +437,7 @@ areas_1 = areas + ["poolhouse", 24.5]
 # Add garage data to areas_1, new list is areas_2
 areas_2 = areas_1 + ["garage", 15.45]
 ````
-#Excercise 23:
+# Excercise 23:
 
 Delete list elements
 Finally, you can also remove elements from your list. You can do this with the del statement:
@@ -456,10 +456,10 @@ There was a mistake! The amount you won with the lottery is not that big after a
 
 The ; sign is used to place commands on the same line. The following two code chunks are equivalent:
 
-# Same line
+Same line
 command1; command2
 
-# Separate lines
+Separate lines
 command1
 command2
 Which of the code chunks will do the job for us?
@@ -473,7 +473,7 @@ d) del(areas[-3]); del(areas[-4])
 
 Solution : c(del(areas[-4:-2]))
 
-#Excercise 24:
+# Excercise 24:
 
 Change the second command, that creates the variable areas_copy, such that areas_copy is an explicit copy of areas. After your edit, changes made to areas_copy shouldn't affect areas. Hit Submit Answer to check this.
 
@@ -493,7 +493,7 @@ areas_copy[0] = 5.0
 print(areas)
 ````
 
-#Excercise 25:
+# Excercise 25:
 
 Use print() in combination with type() to print out the type of var1.
 Use len() to get the length of the list var1. Wrap it in a print() call to directly print it out.
@@ -516,7 +516,7 @@ print(len(var1))
 out2 = int(var2)
 ````
 
-#Excercise 26:
+# Excercise 26:
 
 Help!
 Maybe you already know the name of a Python function, but you still have to figure out how to use it. Ironically, you have to ask for information about a function with another function: help(). In IPython specifically, you can also use ? before the function name.
