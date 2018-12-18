@@ -36,11 +36,11 @@ Something that Filip didn't mention in his videos is that you can add comments t
 To add comments to your Python script, you can use the # tag. These comments are not run as Python code, so they will not influence your result. As an example, take the comment on the right, # Division; it is completely ignored during execution.
 
 Solution : 
-``
+````
 # Division
 print(5 / 8)
 
 # Addition
 print(7 + 10)
 
-``
+````
